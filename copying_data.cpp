@@ -3,7 +3,7 @@ typedef struct student
 {
 	int rno;
 	int m1,m2;
-};
+}student;
 int main()
 {
 	student s1,s2;
@@ -16,3 +16,4 @@ int main()
 	printf("m1  %d\n",s2.m1);
 	printf("m2  %d\n",s2.m2);
 }
+
